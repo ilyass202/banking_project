@@ -1,0 +1,23 @@
+# Github actions cache 
+/.github/.cache 
+
+#Docker cache 
+docker/
+
+# Dbt cache 
+banking_dbt/.dbt/
+banking_dbt/target/
+banking_dbt/logs/
+banking_dbt/macros/
+banking_dbt/seeds/
+banking_dbt/tests/
+banking_dbt/analyses
+
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+docker-compose.override.yml
+logs/
